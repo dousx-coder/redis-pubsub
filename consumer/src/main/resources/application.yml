@@ -1,0 +1,8 @@
+server:
+  port: 6819
+spring:
+  redis:
+    database: 3
+    host: 192.168.0.181
+    port: 6379
+    password: redis
