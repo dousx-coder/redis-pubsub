@@ -36,7 +36,7 @@ public class RedisTest {
 
 
         String msg2 = "B:" + DateUtil.format(new Date(), DatePattern.NORM_DATETIME_MS_PATTERN);
-        String channel2 = "topic_config_monitor1";
+        String channel2 = "topic_config_monitor2";
         stringRedisTemplate.convertAndSend(channel2, msg2);
         log.info("channel={},message={}", channel2, msg2);
 
