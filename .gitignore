@@ -45,3 +45,4 @@ target
 # eclipse classpath file
 .classpath
 **/.classpath
+*dev*
